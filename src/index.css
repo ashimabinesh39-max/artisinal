@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-tertiary: #715858;
+  --color-on-secondary-container: #67645f;
+  --color-on-primary-container: #734e4e;
+  --color-surface-container-low: #fbf1f1;
+  --color-surface-dim: #e1d8d7;
+  --color-surface-container: #f5eceb;
+  --color-on-secondary-fixed: #1d1b18;
+  --color-primary-fixed: #ffdad9;
+  --color-on-primary-fixed: #2f1314;
+  --color-background: #fff8f7;
+  --color-surface: #fff8f7;
+  --color-secondary-container: #e7e2dc;
+  --color-on-error: #ffffff;
+  --color-primary: #7b5455;
+  --color-inverse-surface: #342f2f;
+  --color-on-tertiary-fixed: #291717;
+  --color-tertiary-fixed-dim: #dfbfbf;
+  --color-on-tertiary: #ffffff;
+  --color-on-background: #1f1b1b;
+  --color-surface-container-high: #f0e6e6;
+  --color-error-container: #ffdad6;
+  --color-on-tertiary-fixed-variant: #584141;
+  --color-tertiary-container: #e7c7c7;
+  --color-inverse-primary: #ecbaba;
+  --color-surface-bright: #fff8f7;
+  --color-surface-variant: #eae0e0;
+  --color-surface-container-highest: #eae0e0;
+  --color-secondary-fixed: #e7e2dc;
+  --color-tertiary-fixed: #fcdbda;
+  --color-on-tertiary-container: #6a5252;
+  --color-on-secondary-fixed-variant: #494642;
+  --color-inverse-on-surface: #f8efee;
+  --color-error: #ba1a1a;
+  --color-outline: #827473;
+  --color-on-surface-variant: #504444;
+  --color-on-error-container: #93000a;
+  --color-on-secondary: #ffffff;
+  --color-outline-variant: #d4c2c2;
+  --color-surface-container-lowest: #ffffff;
+  --color-primary-container: #f4c2c2;
+  --color-secondary-fixed-dim: #cbc6c0;
+  --color-on-surface: #1f1b1b;
+  --color-on-primary-fixed-variant: #613d3e;
+  --color-on-primary: #ffffff;
+  --color-surface-tint: #7b5455;
+  --color-primary-fixed-dim: #ecbaba;
+  --color-secondary: #615e59;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scrollbars for categories and horizontal scroll views */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

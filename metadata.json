@@ -1,0 +1,6 @@
+{
+  "name": "Crave Artisanal",
+  "description": "An elegant, visual-first online patisserie catalog, wishlist tray, and interactive purchase checkout experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
